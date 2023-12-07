@@ -21,7 +21,7 @@ power = 14 ** 5
 
 floordiv = 23//4
 
-#function return the type of the variable
+#function type() return the type of the variable
 data_type = type(floordiv)
 
 print (addx," ",subx," ",multix," ",divx," ",mod," ",power," ",floordiv)
