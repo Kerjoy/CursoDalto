@@ -1,5 +1,5 @@
 """
-DIR - Return the list of attributes from past object
+DIR - Return the list of attributes from past object ( FUNCTION)
 
 UPPER - Convert to uppercase
 LOWER- Convert to lowcase
@@ -16,6 +16,8 @@ STARTSWITH - verify if a string atart with
 
 replace - replace a value with other
 split - split a parameter
+
+ALL METHOS ARE FUNCTIONS BUT NOT ALL FUNCTIONS ARE METHODS 
 """
 
 string1 = "Hi user"
@@ -39,3 +41,30 @@ print (first_letter_upper)
 q_find = result.find(("my").upper())
 
 print(q_find)
+
+#find a string in other string, if not have any coincidence return a exception
+
+#r_except= result.index("my".upper())
+
+#print (r_except)
+
+# isnumeric - if is a number return True
+num = "555"
+print(num.isnumeric())
+# isalpha - is is alpha-numeric return True
+alp = "probealpha"
+print(alp.isalpha())
+
+#endswhith - verify if a string end with
+end_w = "hi, is a program exercise"
+print(end_w.endswith("exercise"))
+#startwith - verify if a string atart with
+start_w = "only have a bit time for this"
+print(start_w.startswith("have"))
+
+#replace - replace a value with other
+sentence1 = "only need this string for practice 1111"
+print(sentence1.replace("1111","success"))
+#split - split a parameter
+sentence2 = "this, emulates, a csv, file, or something, like that"
+print(sentence2.split(","))
