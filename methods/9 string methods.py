@@ -11,11 +11,16 @@ INDEX - method find the first coincidence of specific value, else rise a Excepti
 ISNUMERIC - if is a number return True
 ISALPHA - is is alpha-numeric return True
 
+COUNT - returns the number of ocurrences of a sub-string in the given string
+LEN - returns the total of characters in the given string (FUNCTION)
+
 ENDSWITH - verify if a string end with
 STARTSWITH - verify if a string atart with
 
-replace - replace a value with other
-split - split a parameter
+REPLACE - replace a value with other
+SPLIT - split a parameter
+
+LIST - create a list
 
 ALL METHOS ARE FUNCTIONS BUT NOT ALL FUNCTIONS ARE METHODS 
 """
@@ -54,6 +59,14 @@ print(num.isnumeric())
 # isalpha - is is alpha-numeric return True
 alp = "probealpha"
 print(alp.isalpha())
+
+sentence3 = "only need this string for practice 1111"
+sentence4 = "this, emulates, a csv, file, or something, like that"
+
+#COUNT - returns the number of ocurrences of a sub-string in the given string
+print(sentence3.count("1"))
+#LEN - returns the total of characters in the given string
+print(len(sentence4))
 
 #endswhith - verify if a string end with
 end_w = "hi, is a program exercise"
