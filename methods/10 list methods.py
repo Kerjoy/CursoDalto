@@ -37,7 +37,7 @@ print(list1)
 print(list1.pop(0))
 print(list1.pop(-1))#deletes last element from the list -2 prev last and so on
 
-#REMOVE - removes an element from a list, specifying a value
+#REMOVE - removes an element from a list, specifying a value otherwise rise a exception
 list1.remove("here")
 print(list1)
 
@@ -56,3 +56,9 @@ print(f"Demostration of sort method with attribute reverse for a list {number_li
 number_list.reverse()
 print(f"reversing a list {number_list}")
 
+search_element = number_list.index(2) # search on a reversed list else rise a exception
+print(search_element)
+
+search_element_in_set = set(["1","2"]) #defines a set
+
+se1 = search_element.__index__("1") #set not have a index method
