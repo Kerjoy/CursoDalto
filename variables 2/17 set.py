@@ -22,6 +22,8 @@ print(result)
 
 #checking if is a superset conjunto1 from conjunto2
 result = conjunto2.issuperset(conjunto1)
-result = conjunto2 >= conjunto1 # other way for comparison subset
+result = conjunto2 > conjunto1 # other way for comparison subset
 
+#check if it ever has the same number, if have a coincidence returns false, otherwise returns true
+result = conjunto2.isdisjoint(conjunto1)
 print(result)
