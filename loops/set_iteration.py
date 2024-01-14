@@ -1,7 +1,7 @@
-animals = ["cat","dog","parrot","cocodrile","fish"]
-numbers = [1,2,3,4,5]
+animals = {"cat","dog","parrot","cocodrile","fish"}
+numbers = {1,2,3,4,5}
 
-#iterarion of animal list
+#iterarion of animal set
 for animal in animals:
     print(f"current animal in iteration: {animal}")
     
@@ -14,7 +14,7 @@ for number in numbers:
     
 print("----------------")
     
-#with zip can have iterarion in more than one list
+#with zip can have iterarion in more than one set
 for number,animal in zip(numbers,animals):
     print(number,animal)
     
@@ -26,11 +26,11 @@ for number_range in range(1,11):
     
 print("----------------")
 
-#incorrect way for iteration on list
+#incorrect way for iteration (dont work on sets)
 #for num in range(len(numbers)):
-#    print(numbers[num])
+#    print(numbers{num})
     
-#correct way for iteration on list, enumarates make a tuple with index over each element
+#correct way for iteration on set, enumarates make a tuple with index over each element
 for num in enumerate(numbers):
     #print(type(num))
     index = num[0]
@@ -49,4 +49,4 @@ for i,num in enumerate(numbers):
 else:
     print("loop end")
     
-#all works same way for tuples or list
+#all works same way for tuples or set
