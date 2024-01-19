@@ -26,3 +26,5 @@ print(result_all)
 #add all values on iterable
 add_total = sum(numbers)
 print(add_total)
+
+#max, min and add return a exception if introduce strings 
