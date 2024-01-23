@@ -16,11 +16,16 @@ for x in range (0,3):
     
 genre = "man"
 name = "superman"
+
 def function_with_condition(genre,name):
-    genre.lower()
+    genre = genre.lower()
     if genre == "man":
-        print("Hi superman")
+        adj = "queen"
+    elif genre == "hombre":
+        adj = "king"
     else:
-        print("Hi superwoman")
+        anj = "crack"
         
+    print(f"Hi {name}, my {adj} whats up?")
+ 
 function_with_condition(genre,name)
