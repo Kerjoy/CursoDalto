@@ -38,7 +38,9 @@ def creating_random_password(num_for_password):
     c2 = num + 3
     c3 = num + 2
     create_password = f"{chars[c1]}{chars[c2]}{chars[c3]}{num_integer*2}"
-    return create_password
+    return (create_password,num)
      
-result = creating_random_password(9)
-print(result) 
+password,num = creating_random_password(9)
+phrase = f"your new password is {password} the seed for password is {num}"
+print(phrase)
+
