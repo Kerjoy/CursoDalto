@@ -13,9 +13,17 @@ print(result)
 
 #result = add2(list)
 
-#using parameter args
-def add3(*number):
-    return sum(number)
+#using parameter args, can add more parameters this way
+def add4(numbers):
+    return sum([*numbers])
 
-result = add3(3,4,5,6,6,7,7,8,8)
+result2 = add4([3,4,5,6,6,7,7,8,8])
+print(result2)
+
+#using parameter args, cant add more parameters this way
+def add3(name,*number):
+    return f"{name} your sum of number is {sum(number)}"
+
+result = add3("Ker",3,4,5,6,6,7,7,8,8)
 print (result)
+
