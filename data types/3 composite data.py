@@ -12,7 +12,7 @@ tuple = ("Juan","Ker",True,1.73)
 list[2] = "Taquito"
 
 #incorrect
-#tupla[2] = "Taquito"
+#tuple[2] = "Taquito"
 
 #print(list[2])
 
