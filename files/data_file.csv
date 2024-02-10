@@ -1,6 +1,6 @@
-Tech1,Tech2,Tech3
-Algorithm,Database,Machine Learning
-Python,Java,JavaScript
-TensorFlow,MongoDB,Apache Spark
-Big Data,Data Science,Artificial Intelligence
-Cloud Computing,Cybersecurity,DevOps
+Tech1,Tech2,Tech3,Tech4
+Algorithm,Database,Machine Learning,1
+Python,Java,JavaScript,2
+TensorFlow,MongoDB,Apache Spark,3
+Big Data,Data Science,Artificial Intelligence,4
+Cloud Computing,Cybersecurity,DevOps,5
