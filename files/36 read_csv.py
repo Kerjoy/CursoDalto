@@ -49,7 +49,9 @@ second_column = data_frame.iloc[:,2]
 print(second_column)
 
 #accesing to row with number greater than 3
-#greater = data_frame.loc[data_frame[tech1]]
+greater = data_frame.loc[data_frame["randomt4"]>2,:]
+
+print(greater)
 
 #getting values of column tech1
 #t1 = data_frame["Tech1"]

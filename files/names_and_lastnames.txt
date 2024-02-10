@@ -1,0 +1,31 @@
+The data is: 
+Name: Paco
+Apellido: Paquin
+------------
+Name: Juan
+Apellido: Juanin
+------------
+Name: Barbara
+Apellido: Barbarin
+------------
+Name: Dimitri
+Apellido: Dimitrin
+------------
+Name: Pablo
+Apellido: Pablin
+------------
+Name: Paco
+Apellido: Paquin
+------------
+Name: Juan
+Apellido: Juanin
+------------
+Name: Barbara
+Apellido: Barbarin
+------------
+Name: Dimitri
+Apellido: Dimitrin
+------------
+Name: Pablo
+Apellido: Pablin
+------------
