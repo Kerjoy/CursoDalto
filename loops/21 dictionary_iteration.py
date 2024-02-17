@@ -22,7 +22,7 @@ for fruit in fruits:
     if fruit == "dragon fruit":
         break
 else: 
-    print("terminaron las frutas") 
+    print("end list of fruits") 
     
 #iteration over string
 

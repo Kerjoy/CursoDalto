@@ -20,7 +20,7 @@ def add4(numbers):
 result2 = add4([3,4,5,6,6,7,7,8,8])
 print(result2)
 
-#using parameter args, cant add more parameters this way
+#using parameter args, cant add more parameters this way, parameter arg only can be the last element
 def add3(name,*number):
     return f"{name} your sum of number is {sum(number)}"
 

@@ -26,10 +26,10 @@ result = re.findall(r"\W",text)
 result = re.findall(r"\s",text)
 
 #. search all without line break
-#/n search all line breaks
+#\n search all line breaks
 result = re.findall(r"\n",text)
 
-#/ cancel special characters, canceling the function of the period, and searching for dots
+#\ cancel special characters, canceling the function of the period, and searching for dots
 result = re.findall(r"\.",text)
 
 #creating a string with search a number, next a dot and space
